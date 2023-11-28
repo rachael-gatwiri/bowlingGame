@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "tsc main.ts"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.23.3"
+  }
+}
